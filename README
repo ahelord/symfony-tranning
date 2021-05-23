@@ -1,1 +1,16 @@
+- iniciar server
 symfony server:start
+- comprobar si tengo los requerimientos de symfony
+symfony check:requirements
+- Comprobar los detalles del proyecto
+ php bin/console about
+ - Revisar vulnerabilidades de los paquetes
+symfony check:security
+- crear un proyecto con la version estable
+symfony new my_project_name --version=lts
+- listar comandos de la consola
+ php bin/console    
+- instalar maker
+symfony composer req maker --dev
+- php bin/console list make  
+listar comandos del make
